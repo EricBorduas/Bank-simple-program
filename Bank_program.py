@@ -59,7 +59,7 @@ def amount_deposit_money(deposit):
     global current_balance
     try:
         val_amount = int(deposit)
-        print(val_amount, "is a valid entry. Let's see if you have enought money.")
+        print(val_amount, "is a valid entry.")
         current_balance = int(int(current_balance) + int(deposit))
         print("                             ")
         print("Your new balance is", current_balance)
